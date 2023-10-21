@@ -31,7 +31,7 @@ char *_strncpy(char *destn, char *sr, int numchr)
 }
 
 /**
- **_strncat - concats 2strings
+ **_strncat - _strncat
  *@destn: destination string
  *@sr: second str
  *@num: bytes to be used
