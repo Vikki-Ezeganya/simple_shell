@@ -4,7 +4,7 @@
  * _clear_info -  _clear_info
  * @infom: struct address
  */
-void clear_info(info_t *infom)
+void _clear_info(info_t *infom)
 {
 	infom->arg = NULL;
 	infom->argv = NULL;

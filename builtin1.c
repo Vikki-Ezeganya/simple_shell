@@ -70,11 +70,11 @@ int _set_alias(info_t *infor, char *st)
 }
 
 /**
- * history - display history list.
+ *_myhistory - display history list.
  * @infor: infor.
  *  Return: Always 0
  */
-int history(info_t *infor)
+int _myhistory(info_t *infor)
 {
 	print_list(infor->history);
 	return (0);
@@ -82,11 +82,11 @@ int history(info_t *infor)
 
 
 /**
- * alias - alias
+ * _myalias - alias
  * @inform: inform.
  *  Return: Always 0
  */
-int alias(info_t *inform)
+int _myalias(info_t *inform)
 {
 	int i = 0;
 	char *p = NULL;
