@@ -54,7 +54,7 @@ int mysetenv(info_t *infor)
  * @infor: infor
  *  Return: 0
  */
-int myunsetenv(info_t *infor)
+int myunset_env(info_t *infor)
 {
 	int i;
 

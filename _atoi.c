@@ -55,7 +55,7 @@ int _isalphabet(int a)
  *
  * Return: 1 if interactive mode, 0 otherwise
  */
-int is_interactive(info_t *infom)
+int interactive(info_t *infom)
 {
 	return (isatty(STDIN_FILENO) && infom->readfd <= 2);
 }
@@ -68,7 +68,7 @@ int is_interactive(info_t *infom)
  * @delime: the delimeter string
  * Return: 1 if true, 0 if false
  */
-int is_delimeter(char d, char *delime)
+int is_delim(char d, char *delime)
 {
 	while (*delime)
 		if (*delime++ == d)

@@ -2,11 +2,11 @@
 
 
 /**
- * my_help - changes the current directory of the process
+ * _myhelp - changes the current directory of the process
  * @inform: Used for  maintaining constant function prototype.
  *  Return: 0
  */
-int my_help(info_t *inform)
+int _myhelp(info_t *inform)
 {
         char **arg_array;
 
@@ -52,11 +52,11 @@ int _myexit(info_t *inform)
 
 
 /**
- * _cd - changes the current directory of the process
+ * _mycd - changes the current directory of the process
  * @informat: Maintains constant function prototype.
  *  Return: Always 0
  */
- int _cd(info_t *informat)
+ int _mycd(info_t *informat)
  {
          char *s, *dir, buffer[1024];
          int chdir_ret;
